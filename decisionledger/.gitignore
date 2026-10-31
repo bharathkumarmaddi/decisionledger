@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.log
+.DS_Store
