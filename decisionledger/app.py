@@ -17,7 +17,7 @@ import urllib.request
 import streamlit as st
 
 DB_PATH = os.environ.get("DL_DB", "decisionledger.db")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 
 SAMPLE_1 = """Priya: Okay so, um, quick standup. We decided we're using Firebase for the login, that's final.
 Ravi: Yeah and uh I'll do the landing page, no wait, Arjun does the landing page, I'll do the database schema, by Monday.
